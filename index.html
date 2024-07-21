@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">Blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Updates</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Resources</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Community</a>
+                    </li>
+                </ul>
+                <form class="form__wrapper">
+                    <input class="header__input" type="text">
+                    <select class="laguage">
+                        <option value="en">English</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </form>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__textbox">
+                    <h1 class="hero__title">20,943,843</h1>
+                    <p class="hero__text">UNIQUE PLAYERS LAST MONTH</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="./images/scrool bar.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="./images/second.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="./images/third.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
